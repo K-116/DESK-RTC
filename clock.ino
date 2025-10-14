@@ -65,10 +65,12 @@ void loop() {
 
   
 
-  lcd.setCursor(5, 1);
+  lcd.setCursor(3, 1);
   lcd.print(now.month());
   lcd.print("/");
   lcd.print(now.day());
+  lcd.print("/");
+  lcd.print(now.year()); //-2000 if you only want the last 2 numbers
 
   if (digitalRead(button) == LOW) {
     digitalWrite(buzzer, HIGH);
