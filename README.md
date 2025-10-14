@@ -9,6 +9,7 @@ I2C Library (DOWNLOAD THE LATEST VER) https://docs.arduino.cc/libraries/liquidcr
 <br>
 
 **COMPONENTS USED**
+<br>
 Arduino NANO/UNO
 <br>
 16X2 I2C LCD DISPLAY
