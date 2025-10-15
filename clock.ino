@@ -8,7 +8,7 @@ RTC_DS3231 rtc;
 int buzzer = 2;
 int button = 3;
 String val;
-
+char daysOfTheWeek[7][4] = {"SUN","MON","TUE","WED","THU","FRI","SAT"};
 
 void setup() {
   pinMode(button,INPUT_PULLUP);
@@ -21,18 +21,13 @@ void setup() {
     lcd.print("NO RTC FOUND!");
     while(true);
   }
-
-  if(rtc.lostPower()){
-    lcd.clear();
-    lcd.print("RTC LOST POWER!");
-    delay(2000);
-    rtc.adjust(DateTime(F(__DATE__), F(__TIME__)));
-  }
   lcd.clear();
+  rtc.adjust(DateTime(F(__DATE__), F(__TIME__)));
 }
 
 
 void loop() {
+  
   DateTime now = rtc.now();
   
 
@@ -65,12 +60,14 @@ void loop() {
 
   
 
-  lcd.setCursor(3, 1);
+  lcd.setCursor(0, 1);
+  lcd.print(daysOfTheWeek[now.dayOfTheWeek()]);
+  lcd.print("~~");
   lcd.print(now.month());
   lcd.print("/");
   lcd.print(now.day());
   lcd.print("/");
-  lcd.print(now.year()); //-2000 if you only want the last 2 numbers
+  lcd.print(now.year());
 
   if (digitalRead(button) == LOW) {
     digitalWrite(buzzer, HIGH);
@@ -80,7 +77,7 @@ void loop() {
 
     lcd.clear();
     lcd.setCursor(2, 0);
-    lcd.print("Hello!");
+    lcd.print("Hello Gabby!");
     lcd.setCursor(2, 1);
     if (val == "am") {
       lcd.print("Good Morning!");
