@@ -77,7 +77,7 @@ void loop() {
 
     lcd.clear();
     lcd.setCursor(2, 0);
-    lcd.print("Hello Gabby!");
+    lcd.print("Hello User!");
     lcd.setCursor(2, 1);
     if (val == "am") {
       lcd.print("Good Morning!");
