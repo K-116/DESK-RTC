@@ -31,8 +31,9 @@ Jumper wires (Female to Male AND Male to Male)
 
 
 **NOTE THAT I USE THE DC1307 MODULE. ALTER THE **RTC_DS3231 rtc;** CODE FOUND TOWARDS THE BEGINNING accordingly :)**
-<br>
-<img width="711" height="617" alt="image" src="https://github.com/user-attachments/assets/d32b1981-4104-4f3d-966d-3ca43348a5fc" />
+<br> WIRING DIAGRAM
+<img width="922" height="756" alt="image" src="https://github.com/user-attachments/assets/121a883c-875e-4567-a614-2901f19a6e4b" />
+
 
 **3D MODEL**
 <img width="1027" height="740" alt="image" src="https://github.com/user-attachments/assets/b875137e-98af-487e-8633-08b04e9b021e" />
