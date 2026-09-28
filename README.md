@@ -35,7 +35,8 @@ Jumper wires (Female to Male AND Male to Male)
 <img width="711" height="617" alt="image" src="https://github.com/user-attachments/assets/d32b1981-4104-4f3d-966d-3ca43348a5fc" />
 
 **3D MODEL**
-<img width="927" height="691" alt="image" src="https://github.com/user-attachments/assets/9dfd9a7c-866c-47f5-94c4-7ec4e53bb7a8" />
+<img width="1027" height="740" alt="image" src="https://github.com/user-attachments/assets/b875137e-98af-487e-8633-08b04e9b021e" />
+
 
 
 
