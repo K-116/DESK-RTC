@@ -45,6 +45,6 @@ Jumper wires
 
 <h2>REAL LIFE MODEL!</h2>
 
-ADD THIS!!!
+ADD THIS ONCE 3D CASE ARRIVES
 
 
